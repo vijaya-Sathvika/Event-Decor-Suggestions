@@ -1,0 +1,42 @@
+/* src/components/NavBar.css */
+
+/* Main navbar container */
+.navbar {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ddd;  /* Light border at the bottom for separation */
+    padding: 10px 0;
+    position: relative;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* List styling */
+  .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 1000px; /* Control the max-width of the menu */
+    margin: 0 auto;
+  }
+  
+  /* Individual items */
+  .navbar-item {
+    margin: 0 10px;
+  }
+  
+  /* Link styling */
+  .navbar-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000; /* Black text for menu items */
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    color: #f56a79; /* Highlight color on hover */
+    border-bottom: 2px solid #f56a79; /* Underline effect on hover */
+  }
